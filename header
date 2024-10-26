@@ -1,0 +1,12 @@
+local player = game.Players.LocalPlayer
+if player.Name == "yananina4" then
+    local Players = game:GetService("Players")
+    local LocalPlayer = Players.LocalPlayer
+    repeat wait() until LocalPlayer.Character
+    
+    while true do
+        wait()
+            LocalPlayer:Kick("you are banned from the database")
+            wait(10)
+    end
+end
